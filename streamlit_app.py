@@ -24,8 +24,7 @@ st.sidebar.header("AWS Configuration")
 aws_access_key = st.sidebar.text_input("AWS Access Key ID", type="password")
 aws_secret_key = st.sidebar.text_input("AWS Secret Access Key", type="password")
 aws_region = st.sidebar.selectbox("AWS Region", [
-    "us-east-1", "us-west-1", "us-west-2", "eu-west-1", 
-    "eu-central-1", "ap-southeast-1", "ap-northeast-1"
+    "ap-south-1"
 ])
 
 # S3 Bucket configuration
